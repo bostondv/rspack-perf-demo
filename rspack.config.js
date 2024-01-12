@@ -2,8 +2,9 @@ const rspack = require("@rspack/core");
 /** @type {import('@rspack/cli').Configuration} */
 const config = {
   entry: {
-    // otherLargeEntry: '...',
-    main: "./src/index.tsx"
+    // commented out for demo
+    // main: '...',
+    test: "./src/index.tsx"
   },
   output: {
     path: 'build',
